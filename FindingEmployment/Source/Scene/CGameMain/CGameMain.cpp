@@ -142,6 +142,7 @@ void CGameMain::Create()
 	m_pStaticMeshBBox->Init(*CDirectX9::GetInstance(), *CDirectX11::GetInstance(), _T("Data\\Collision\\Box.x"));       // ここを修正
 	m_pStaticMeshWall->Init(*CDirectX9::GetInstance(), *CDirectX11::GetInstance(), _T("Data\\Collision\\Box.x"));      // ここを修正
 
+
 	const float STAGE_HALF_SIZE_X = 10.0f;
 	const float STAGE_HALF_SIZE_Z = 100.0f;
 	const float WALL_HEIGHT = 10.0f;
