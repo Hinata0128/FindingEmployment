@@ -1,0 +1,68 @@
+[Window][Debug##Default]
+Pos=978,418
+Size=285,257
+Collapsed=0
+
+[Window][My Debug Window]
+ViewportPos=1275,193
+ViewportId=0xA4D966FE
+Size=472,165
+Collapsed=0
+DockId=0x00000002,0
+
+[Window][Light Settings]
+ViewportPos=1275,193
+ViewportId=0xA4D966FE
+Size=472,259
+Collapsed=0
+DockId=0x00000003,0
+
+[Window][Block Position]
+ViewportPos=709,657
+ViewportId=0x075B0E90
+Size=371,244
+Collapsed=0
+
+[Window][Block Attch]
+ViewportPos=1275,193
+ViewportId=0xA4D966FE
+Pos=0,261
+Size=472,199
+Collapsed=0
+DockId=0x00000005,0
+
+[Window][Block Position Control]
+ViewportPos=1404,243
+ViewportId=0xA4D966FE
+Pos=0,261
+Size=472,199
+Collapsed=0
+DockId=0x00000005,1
+
+[Window][Blocks Attch]
+ViewportPos=177,437
+ViewportId=0x30632DBE
+Size=426,564
+Collapsed=0
+
+[Window][Camera Settings]
+ViewportPos=1321,76
+ViewportId=0x8722C6A1
+Size=504,238
+Collapsed=0
+
+[Window][Editor]
+ViewportPos=1275,193
+ViewportId=0xA4D966FE
+Pos=0,261
+Size=472,199
+Collapsed=0
+DockId=0x00000005,0
+
+[Docking][Data]
+DockNode      ID=0x00000001 Pos=1275,193 Size=472,460 Split=Y
+  DockNode    ID=0x00000004 Parent=0x00000001 SizeRef=285,259 Split=Y
+    DockNode  ID=0x00000002 Parent=0x00000004 SizeRef=304,165 Selected=0x2F69EDD4
+    DockNode  ID=0x00000003 Parent=0x00000004 SizeRef=304,92 Selected=0xF5296AE5
+  DockNode    ID=0x00000005 Parent=0x00000001 SizeRef=285,199 Selected=0x9F27EDF6
+
